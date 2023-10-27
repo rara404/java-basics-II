@@ -13,6 +13,12 @@ public class Cat {
         return name;
     }
 
+    @Override
+    public String toString() {
+        return "This is: " + name;
+    }
+
+
 
 
 }
